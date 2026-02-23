@@ -120,8 +120,8 @@ def main():
     url1 = sys.argv[1]
     url2 = sys.argv[2]
     
-    print(f"URL received: {url1}")
-    print(f"URL received: {url2}")
+    print(f"URL1 received: {url1}")
+    print(f"URL2 received: {url2}")
 
     soup1 = fetch_page(url1)
     soup2 = fetch_page(url2)
